@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-teal: oklch(0.42 0.08 195);
+  --color-teal-light: oklch(0.52 0.08 195);
+  --color-teal-dark: oklch(0.32 0.08 195);
+  --color-terracotta: oklch(0.62 0.12 50);
+  --color-terracotta-light: oklch(0.72 0.10 50);
+  --color-sand: oklch(0.87 0.03 80);
+  --color-sand-light: oklch(0.93 0.02 80);
+  --color-warm-white: oklch(0.98 0.005 80);
+  --color-charcoal: oklch(0.28 0.01 60);
+
+  --font-serif: 'Playfair Display', 'Noto Serif JP', serif;
+  --font-sans: 'Source Sans 3', 'Noto Sans JP', sans-serif;
+  --font-display: 'DM Sans', 'Noto Sans JP', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: var(--color-warm-white);
+  color: var(--color-charcoal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
